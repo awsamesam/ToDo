@@ -9,6 +9,8 @@ This project was created to practice React concepts, TypeScript, state managemen
 
 ### 🏠 Main Page
 
+All ToDo
+
 ![ToDo App](./src/assets/AllToDo.png)
 
 ### ✅ Completed Tasks
