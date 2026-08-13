@@ -9,22 +9,22 @@ This project was created to practice React concepts, TypeScript, state managemen
 
 ### 🏠 Main Page
 
-![ToDo App](./لقطة شاشة 2026-08-13 152836.png)
+![ToDo App](./src/assets/AllToDo.png)
 
 ### ✅ Completed Tasks
 
-![Completed Tasks](./لقطة شاشة 2026-08-13 152848.png)
+![Completed Tasks](./src/assets/CompletedTasks.png)
 
 ### ❌ NotCompleted Tasks
 
-![Completed Tasks](./لقطة شاشة 2026-08-13 152858.png)
+![Completed Tasks](./src/assets/NotCompletedTasks.png)
 
 
 Watch the project demo:
 
 ## 🎥 Project Demo
 
-[▶️ Watch ToDo App Demo](./todoawsam - Google Chrome 1448-02-30 15-30-03.mp4)
+[▶️ Watch ToDo App Demo](./src/assets/video.mp4)
 
 
 ## 🚀 Features
