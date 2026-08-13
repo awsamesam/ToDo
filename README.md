@@ -1,16 +1,52 @@
-# React + Vite
+# 📝 ToDo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and modern ToDo application built with React and TypeScript.
 
-Currently, two official plugins are available:
+This project was created to practice React concepts, TypeScript, state management, and building a clean and interactive user interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- ➕ Add new tasks
+- ✏️ Edit tasks
+- 🗑️ Delete tasks
+- ✅ Mark tasks as completed
+- 🔄 Mark completed tasks as uncompleted
+- 🔍 Filter tasks:
+  - All
+  - Completed
+  - Not Completed
+- 💾 Save tasks using Local Storage
+- 🔔 Display notifications when adding, editing, deleting, or completing tasks
+- 📱 Responsive user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies
 
-## Expanding the ESLint configuration
+- React
+- TypeScript
+- Material UI (MUI)
+- JavaScript
+- HTML5
+- CSS3
+- Context API
+- useReducer
+- Local Storage
+- Nanoid
+- Git
+- GitHub
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Project Structure
+
+```text
+src/
+├── Context/
+│   ├── ToDoContext.tsx
+│   └── ToastContext.tsx
+│
+├── Reducers/
+│   └── TodosReducers.ts
+│
+├── App.tsx
+├── ToDoList.tsx
+├── ToDo.tsx
+├── CustomizedSnackbars.tsx
+└── main.tsx
