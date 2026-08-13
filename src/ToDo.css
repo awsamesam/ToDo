@@ -1,0 +1,27 @@
+.Done:hover{
+color:white !important;
+    background-color:#8bc34a !important;
+    border: white solid 3px !important;
+      transform: translateY(-5px);
+
+}
+.Edit:hover{
+color:white !important;
+    background-color:#1769aa !important;
+    border: white solid 3px !important;
+      transform: translateY(-5px);
+
+}
+.Delet:hover{
+    color:white !important;
+    background-color:#b23c17 !important;
+    border: white solid 3px !important;
+      transform: translateY(-5px);
+
+}
+.Delet,.Done,.Edit,.card{
+    transition: 0.5s all ease-in-out !important
+}
+.card:hover{
+ transform: scaleY(1.1);
+}
